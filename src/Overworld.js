@@ -2,6 +2,10 @@ class Overworld extends Phaser.Scene{
     constructor(){
         super({key: 'overworldScene'})
         this.VEL = 100
+        //assets temporary from tilemapping
+        //need to add sound before turn in
+        //ned to make the scene work
+        
     }
     preload(){
         this.load.path = './assets/'
