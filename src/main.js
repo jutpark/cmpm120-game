@@ -12,6 +12,10 @@ let config={
         }
     },
     zoom: 2,
-    scene: [Overworld]
+    scene: [Menu,Overworld]
 }
 const game = new Phaser.Game(config)
+
+let borderUISize=game.config.height/15;
+let borderPadding=borderUISize/3;
+let mouse,keyF,keyR,keyLEFT,keyRIGHT;

@@ -104,7 +104,9 @@ if((this.slime.x>=260&&this.slime.x<=300)&&(this.slime.y<=312&&this.slime.y>=264
 
 //
 
-
+if(this.fire==1&&this.knife==1){
+    this.scene.start("menuScene");
+}
 this.direction.normalize()
 this.slime.setVelocity(this.VEL*this.direction.x,this.VEL*this.direction.y)
 
