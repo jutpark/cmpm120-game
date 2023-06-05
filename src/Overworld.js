@@ -34,16 +34,28 @@ this.slime.body.setCollideWorldBounds(true)
 this.fire=false;
 this.knife=false;
 this.cursors = this.input.keyboard.createCursorKeys()
-
+this.inventory="Inventory:"
 this.cameras.main.setBounds(0, 0, map.widthInPixels,map.heightInPixels)
 this.cameras.main.startFollow(this.slime, true, 0.25, 0.25)
 this.physics.world.bounds.setTo(0, 0, map.widthInPixels, map.heightInPixels)
 terrainLayer.setCollisionByProperty({collides: true})
 this.physics.add.collider(this.slime, terrainLayer)
-this.inventoryText = this.add.text(30, 30, 'Inventory:', {
+this.inventoryText = this.add.text(30, 30, this.inventory, {
     fontSize: '14px',
     fill: '#ffffff'
 });
+
+this.x=3000
+for(this.i=0;this.i<100000;this.i++){
+    this.clock = this.time.delayedCall(this.x, () => {
+        this.q = this.physics.add.sprite(this.slime.x, this.slime.y, 'slime', 0)
+        this.q.setVelocity(0,0)
+        this.slime.x=Phaser.Math.Between(100, 400)
+        this.slime.y=Phaser.Math.Between(100, 400)
+      }, null, this);
+      this.x+=3000
+}
+
 }
 
 update(){
@@ -71,20 +83,36 @@ if(this.cursors.up.isDown){
 if(this.cursors.space.isDown){
     console.log("x")
 console.log(this.slime.x)
-if((this.slime.x>=152&&this.slime.x<=184)&&(this.slime.y<=312&&this.slime.y>=264)){
+if((this.slime.x>=260&&this.slime.x<=300)&&(this.slime.y<=312&&this.slime.y>=264)){
     console.log("in range")
-    this.inventoryText.setText(`Inventory: \nKnife`)
-    this.knife=1
-}else if((this.slime.x>=260&&this.slime.x<=300)&&(this.slime.y<=312&&this.slime.y>=280)){
-
+    if(this.knife!=1){
+        this.inventory+='\nknife'
+        this.inventoryText.setText(this.inventory)
+        this.knife=1
+    }
+    
+}else if((this.slime.x>=152&&this.slime.x<=184)&&(this.slime.y<=312&&this.slime.y>=280)){
+    console.log("in range")
+    if(this.fire!=1){
+        this.inventory+='\nfire'
+        this.inventoryText.setText(this.inventory)
+        this.fire=1
+    }
+    
 }
 }
 
-//this.slime = this.physics.add.sprite(32, 32, 'slime', 0)
+//
 
 
 this.direction.normalize()
 this.slime.setVelocity(this.VEL*this.direction.x,this.VEL*this.direction.y)
 
 }
+
+
+
+
+
+
 }
