@@ -1,0 +1,47 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "Inside.tmx": {
+            "scale": 0.8401562499999999,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 645.1180955923378,
+                "y": 480.86293472196405
+            }
+        },
+        "Inside.tmx#atlas_32x": {
+            "scaleInDock": 1
+        },
+        "area01.json": {
+            "scale": 1.6803124999999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 320.1785382183374,
+                "y": 240.43146736098203
+            }
+        },
+        "area01.json#tileset": {
+            "scaleInDock": 1
+        }
+    },
+    "last.exportedFilePath": "C:/Users/Justin/Desktop/cmpm120 game/assets",
+    "last.imagePath": "C:/Users/Justin/Desktop/cmpm120 game/assets",
+    "map.height": 30,
+    "map.lastUsedExportFilter": "All Files (*)",
+    "map.lastUsedFormat": "tmx",
+    "map.width": 40,
+    "openFiles": [
+    ],
+    "project": "untitled.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+    ],
+    "tileset.embedInMap": true
+}
