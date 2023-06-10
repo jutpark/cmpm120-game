@@ -11,13 +11,13 @@ class Downstairs extends Phaser.Scene{
         this.load.path = './assets/'
         this.load.spritesheet('slime', 'slime.png', { frameWidth: 16,    frameHeight: 16 })
         this.load.image('tilesetImage', 'atlas_32x.png')
-        this.load.tilemapTiledJSON('tilemapJSON', 'Kitchen.json')
+        this.load.tilemapTiledJSON('tilemapJSON2', 'kitchen.json')
 
 }
 
     create(){
         console.log("Owo")
-        const map = this.make.tilemap({key:'tilemapJSON'})
+        const map = this.make.tilemap({key:'tilemapJSON2'})
         const tileset = map.addTilesetImage('atlas_32x', 'tilesetImage')
         const FloorLayer = map.createLayer('Floor', tileset)
         const WallLayer = map.createLayer('Wall', tileset)
@@ -127,6 +127,7 @@ if((this.slime.x>=265&&this.slime.x<=280)&&(this.slime.y==184)){
 if(this.fire==1&&this.knife==1){
     this.scene.start("menuScene");
 }
+console.log("DOWNSTAIRS")
 this.direction.normalize()
 this.slime.setVelocity(this.VEL*this.direction.x,this.VEL*this.direction.y)
 

@@ -136,6 +136,7 @@ if((this.slime.x>=265&&this.slime.x<=280)&&(this.slime.y==184)){
     if(this.key==1){
         //, { inventory: this.inventory, mug: this.mug, key: this.key}
         console.log("Go downstairs")
+        this.scene.stop('overworld')
         this.scene.start('downstairsScene')
     }
     
