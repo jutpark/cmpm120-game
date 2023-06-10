@@ -1,6 +1,6 @@
 class Menu extends Phaser.Scene {
     constructor() {
-        super("menuScene");
+        super("Menu");
         //I need a commit for my code to run
     }
     preload() {
@@ -10,7 +10,7 @@ class Menu extends Phaser.Scene {
         // menu text configuration
         let menuConfig = {
             fontFamily: 'Courier',
-            fontSize: '28px',
+            fontSize: '16px',
             backgroundColor: '#F3B141',
             color: '#843605',
             align: 'right',
@@ -22,11 +22,12 @@ class Menu extends Phaser.Scene {
         }
               
         // show menu text
-        this.add.text(game.config.width/2, game.config.height/2 - borderUISize - borderPadding, 'Meshes of the afternoon', menuConfig).setOrigin(0.5);
-        this.add.text(game.config.width/2, game.config.height/2, 'Use the arrow keys to move and space to interact', menuConfig).setOrigin(0.5);
+        this.add.text(game.config.width/2, game.config.height/2 - borderUISize - borderPadding*2, 'Meshes of the afternoon', menuConfig).setOrigin(0.5);
+        this.add.text(game.config.width/2, game.config.height/2, 'Use the arrow keys to move\nand space to interact', menuConfig).setOrigin(0.5);
         menuConfig.backgroundColor = '#00FF00';
         menuConfig.color = '#000';
-        this.add.text(game.config.width/2, game.config.height/2 + borderUISize + borderPadding, 'Press → to continue', menuConfig).setOrigin(0.5);
+        this.add.text(game.config.width/2, game.config.height/2 + borderUISize + 2*borderPadding, 'Press → to continue', menuConfig).setOrigin(0.5);
+        this.add.text(game.config.width/2, game.config.height/2 + 3*borderUISize + borderPadding, 'Credit to Twitter @gif_not_jif\nfor the tilemap assets', menuConfig).setOrigin(0.5);
 
         // define keys
         keyLEFT = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.LEFT);
@@ -35,7 +36,7 @@ class Menu extends Phaser.Scene {
     update() {
         if (Phaser.Input.Keyboard.JustDown(keyRIGHT)) {
           // hard mode
-          this.scene.start('overworldScene');    
+          this.scene.start('Overworld');    
         }
         //if (this.gameOver && Phaser.Input.Keyboard.JustDown(keyLEFT)) {
    //         this.scene.start("menuScene");

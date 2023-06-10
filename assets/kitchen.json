@@ -1,132 +1,119 @@
 { "compressionlevel":-1,
- "height":9,
+ "height":11,
  "infinite":false,
  "layers":[
         {
-         "data":[40, 40, 40, 40, 40, 40, 40, 40, 40, 40,
-            40, 40, 40, 2, 2, 2, 2, 40, 40, 40,
-            40, 50, 50, 50, 50, 50, 50, 50, 50, 40,
-            40, 291, 291, 291, 291, 291, 291, 292, 291, 40,
-            40, 291, 291, 291, 291, 292, 291, 291, 291, 40,
-            40, 291, 291, 291, 291, 292, 291, 291, 291, 40,
-            40, 291, 291, 292, 291, 291, 291, 291, 291, 40,
-            40, 291, 291, 291, 291, 291, 291, 291, 291, 40,
-            40, 40, 40, 40, 40, 40, 40, 40, 40, 40],
-         "height":9,
-         "id":1,
+         "data":[725, 725, 0, 0, 0, 2, 2, 0, 0, 0, 725, 725,
+            725, 725, 2, 2, 2, 2, 2, 2, 2, 2, 725, 725,
+            725, 725, 50, 50, 50, 50, 50, 50, 50, 50, 725, 725,
+            725, 725, 291, 291, 291, 291, 291, 291, 291, 291, 725, 725,
+            725, 725, 291, 291, 291, 291, 291, 292, 291, 291, 725, 725,
+            725, 725, 291, 291, 292, 292, 291, 291, 292, 291, 725, 725,
+            725, 725, 291, 291, 291, 291, 292, 291, 291, 291, 725, 725,
+            725, 725, 291, 292, 291, 291, 291, 291, 291, 291, 725, 725,
+            725, 725, 291, 291, 292, 291, 291, 291, 291, 291, 725, 725,
+            725, 725, 291, 291, 291, 291, 291, 291, 291, 291, 725, 725,
+            725, 725, 725, 725, 725, 725, 725, 725, 725, 725, 725, 725],
+         "height":11,
+         "id":2,
          "name":"Floor",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
-         "width":10,
+         "width":12,
          "x":0,
          "y":0
         }, 
         {
-         "data":[0, 33, 34, 35, 36, 37, 38, 39, 40, 0,
-            0, 81, 82, 83, 84, 85, 86, 87, 88, 0,
-            177, 129, 130, 131, 215, 133, 134, 135, 136, 184,
-            625, 0, 0, 0, 0, 0, 0, 0, 291, 629,
-            625, 0, 0, 0, 0, 0, 0, 0, 0, 629,
-            625, 0, 0, 0, 0, 0, 0, 0, 0, 629,
-            625, 0, 0, 0, 0, 0, 0, 0, 0, 629,
-            625, 0, 0, 0, 0, 0, 0, 0, 0, 629,
-            673, 723, 723, 723, 723, 723, 723, 723, 723, 677],
-         "height":9,
-         "id":2,
+         "data":[0, 0, 33, 34, 35, 36, 37, 38, 39, 40, 0, 0,
+            0, 0, 81, 82, 83, 84, 85, 86, 87, 88, 0, 0,
+            0, 177, 129, 130, 131, 132, 133, 134, 135, 136, 184, 0,
+            0, 625, 0, 0, 0, 0, 0, 0, 0, 0, 629, 0,
+            0, 625, 0, 0, 0, 0, 0, 0, 0, 0, 629, 0,
+            0, 625, 0, 0, 0, 0, 0, 0, 0, 0, 629, 0,
+            0, 625, 0, 0, 0, 0, 0, 0, 0, 0, 629, 0,
+            0, 625, 0, 0, 0, 0, 0, 0, 0, 0, 629, 0,
+            0, 625, 0, 0, 0, 0, 0, 0, 0, 0, 629, 0,
+            0, 625, 0, 0, 0, 0, 0, 0, 0, 0, 629, 0,
+            0, 722, 723, 723, 723, 723, 723, 723, 723, 723, 724, 0],
+         "height":11,
+         "id":1,
          "name":"Wall",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
-         "width":10,
+         "width":12,
          "x":0,
          "y":0
         }, 
         {
-         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 10, 0, 0, 0, 0,
-            0, 0, 688, 214, 0, 58, 0, 0, 0, 0,
-            0, 681, 736, 262, 263, 0, 0, 0, 291, 0,
-            0, 729, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 17, 18, 19, 0, 0, 305, 306, 307, 0,
-            0, 65, 66, 67, 0, 0, 353, 354, 355, 0,
-            0, 113, 114, 115, 0, 0, 401, 402, 403, 0,
-            0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-         "height":9,
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 169, 170, 171, 0, 0, 0,
+            0, 0, 691, 692, 0, 0, 217, 218, 219, 0, 0, 0,
+            0, 0, 739, 740, 0, 0, 265, 266, 267, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 349, 350, 351, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 397, 398, 399, 400, 0, 0, 0,
+            0, 0, 0, 0, 0, 445, 446, 447, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "height":11,
          "id":3,
          "name":"Window",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
-         "width":10,
+         "width":12,
          "x":0,
          "y":0
         }, 
         {
-         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 0, 0, 0, 697, 0,
-            0, 0, 0, 0, 0, 0, 0, 747, 748, 0,
-            0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-         "height":9,
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 172, 173, 174, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 220, 221, 222, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 268, 269, 270, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 304, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 17, 18, 19, 0, 448, 0, 0, 0, 0, 0,
+            0, 0, 65, 66, 67, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 113, 114, 115, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "height":11,
          "id":4,
          "name":"Sofa",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
-         "width":10,
+         "width":12,
          "x":0,
          "y":0
         }, 
         {
-         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 0, 314, 0, 0, 0,
-            0, 0, 0, 0, 0, 0, 218, 0, 0, 0,
-            0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 585, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 633, 0, 0, 304, 264, 0,
-            0, 738, 0, 0, 160, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-         "height":9,
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 72, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "height":11,
          "id":5,
          "name":"Mug",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
-         "width":10,
-         "x":0,
-         "y":0
-        }, 
-        {
-         "draworder":"topdown",
-         "id":6,
-         "name":"Spawns",
-         "objects":[
-                {
-                 "height":0,
-                 "id":1,
-                 "name":"PlayerSpawn",
-                 "point":true,
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":207.735168309466,
-                 "y":114.803645155291
-                }],
-         "opacity":1,
-         "type":"objectgroup",
-         "visible":true,
+         "width":12,
          "x":0,
          "y":0
         }],
- "nextlayerid":7,
- "nextobjectid":2,
+ "nextlayerid":6,
+ "nextobjectid":1,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.10.1",
@@ -432,7 +419,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -447,7 +434,7 @@
                         {
                          "name":"Mirror",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }]
                 }, 
                 {
@@ -466,7 +453,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -481,10 +468,9 @@
                         {
                          "name":"Mirror",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":10,
                  "properties":[
@@ -501,7 +487,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -535,7 +521,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -552,7 +538,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":12,
                  "properties":[
@@ -569,7 +556,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -603,7 +590,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -637,7 +624,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -671,7 +658,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -824,8 +811,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":20,
                  "properties":[
@@ -961,7 +947,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":24,
                  "properties":[
@@ -1165,8 +1152,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":30,
                  "properties":[
@@ -1251,7 +1237,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -1285,7 +1271,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -1319,7 +1305,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -1353,7 +1339,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -1370,7 +1356,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":36,
                  "properties":[
@@ -1387,7 +1374,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -1421,7 +1408,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -1455,7 +1442,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -1489,7 +1476,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -1506,8 +1493,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":40,
                  "properties":[
@@ -1518,6 +1504,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -1551,6 +1542,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -1576,6 +1572,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -1609,6 +1610,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -1634,6 +1640,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -1667,6 +1678,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -1692,6 +1708,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -1725,6 +1746,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -1739,7 +1765,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":48,
                  "properties":[
@@ -1807,8 +1834,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":50,
                  "properties":[
@@ -2029,7 +2055,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -2044,7 +2070,7 @@
                         {
                          "name":"Mirror",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }]
                 }, 
                 {
@@ -2063,7 +2089,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -2078,7 +2104,7 @@
                         {
                          "name":"Mirror",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }]
                 }, 
                 {
@@ -2097,7 +2123,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -2131,7 +2157,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -2166,7 +2192,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -2200,7 +2226,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -2234,7 +2260,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -2268,7 +2294,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -2489,8 +2515,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":70,
                  "properties":[
@@ -2558,7 +2583,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":72,
                  "properties":[
@@ -2830,8 +2856,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":80,
                  "properties":[
@@ -2848,7 +2873,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -2882,7 +2907,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -2916,7 +2941,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -2950,7 +2975,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -2967,7 +2992,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":84,
                  "properties":[
@@ -2984,7 +3010,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -3018,7 +3044,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -3052,7 +3078,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -3086,7 +3112,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -3114,6 +3140,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -3147,6 +3178,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -3161,8 +3197,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":90,
                  "properties":[
@@ -3173,6 +3208,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -3206,6 +3246,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -3231,6 +3276,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -3264,6 +3314,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -3289,6 +3344,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -3322,6 +3382,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -3336,7 +3401,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":96,
                  "properties":[
@@ -3353,7 +3419,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -3387,7 +3453,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -3421,7 +3487,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -3455,7 +3521,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -3472,8 +3538,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":100,
                  "properties":[
@@ -3490,7 +3555,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -3524,7 +3589,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -3558,7 +3623,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -3592,7 +3657,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -3626,7 +3691,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -3660,7 +3725,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -3694,7 +3759,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -3728,7 +3793,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -3745,7 +3810,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":108,
                  "properties":[
@@ -3762,7 +3828,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -3796,7 +3862,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -3813,8 +3879,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":110,
                  "properties":[
@@ -3831,7 +3896,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -3865,7 +3930,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -4444,7 +4509,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -4478,7 +4543,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -4495,8 +4560,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":130,
                  "properties":[
@@ -4513,7 +4577,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -4547,7 +4611,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -4564,7 +4628,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":132,
                  "properties":[
@@ -4581,7 +4646,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -4615,7 +4680,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -4649,7 +4714,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -4683,7 +4748,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -4711,6 +4776,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -4744,6 +4814,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -4769,6 +4844,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -4802,6 +4882,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -4816,8 +4901,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":140,
                  "properties":[
@@ -4828,6 +4912,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -4861,6 +4950,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -4890,6 +4984,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -4907,205 +5006,6 @@
                 }, 
                 {
                  "id":143,
-                 "properties":[
-                        {
-                         "name":"Bottle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Candle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Key",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Knife",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Mirror",
-                         "type":"bool",
-                         "value":false
-                        }]
-                }, 
-                {
-                 "id":144,
-                 "properties":[
-                        {
-                         "name":"Bottle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Candle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Collides",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Key",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Knife",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Mirror",
-                         "type":"bool",
-                         "value":false
-                        }]
-                }, 
-                {
-                 "id":145,
-                 "properties":[
-                        {
-                         "name":"Bottle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Candle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Collides",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Key",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Knife",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Mirror",
-                         "type":"bool",
-                         "value":false
-                        }]
-                }, 
-                {
-                 "id":146,
-                 "properties":[
-                        {
-                         "name":"Bottle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Candle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Collides",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Key",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Knife",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Mirror",
-                         "type":"bool",
-                         "value":false
-                        }]
-                }, 
-                {
-                 "id":147,
-                 "properties":[
-                        {
-                         "name":"Bottle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Candle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Collides",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Key",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Knife",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Mirror",
-                         "type":"bool",
-                         "value":false
-                        }]
-                }, 
-                {
-                 "id":148,
-                 "properties":[
-                        {
-                         "name":"Bottle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Candle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Collides",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Key",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Knife",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Mirror",
-                         "type":"bool",
-                         "value":false
-                        }]
-                }, 
-                {
-                 "id":149,
                  "properties":[
                         {
                          "name":"Bottle",
@@ -5140,6 +5040,210 @@
                 },
             
                 {
+                 "id":144,
+                 "properties":[
+                        {
+                         "name":"Bottle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Key",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Knife",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Mirror",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":145,
+                 "properties":[
+                        {
+                         "name":"Bottle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Key",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Knife",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Mirror",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":146,
+                 "properties":[
+                        {
+                         "name":"Bottle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Key",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Knife",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Mirror",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":147,
+                 "properties":[
+                        {
+                         "name":"Bottle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Key",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Knife",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Mirror",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":148,
+                 "properties":[
+                        {
+                         "name":"Bottle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Key",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Knife",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Mirror",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":149,
+                 "properties":[
+                        {
+                         "name":"Bottle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Key",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Knife",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Mirror",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
                  "id":150,
                  "properties":[
                         {
@@ -5155,7 +5259,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -5189,7 +5293,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -5223,7 +5327,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -5257,7 +5361,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -5291,7 +5395,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -5325,7 +5429,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -5342,7 +5446,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":156,
                  "properties":[
@@ -5359,7 +5464,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -5393,7 +5498,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -5427,7 +5532,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -5478,8 +5583,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":160,
                  "properties":[
@@ -5751,7 +5855,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":168,
                  "properties":[
@@ -5819,8 +5924,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":170,
                  "properties":[
@@ -5871,7 +5975,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -5905,7 +6009,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -5939,7 +6043,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -6041,7 +6145,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -6280,7 +6384,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -6308,6 +6412,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -6341,6 +6450,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -6366,6 +6480,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -6399,6 +6518,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -6424,6 +6548,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -6457,6 +6586,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -6471,8 +6605,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":190,
                  "properties":[
@@ -6483,6 +6616,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -6516,6 +6654,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -6530,7 +6673,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":192,
                  "properties":[
@@ -6547,7 +6691,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -6581,7 +6725,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -6615,7 +6759,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -6649,7 +6793,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -6683,7 +6827,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -6717,7 +6861,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -6751,7 +6895,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -6785,7 +6929,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -6802,8 +6946,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":200,
                  "properties":[
@@ -6820,7 +6963,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -6854,7 +6997,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -6939,7 +7082,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":204,
                  "properties":[
@@ -7143,8 +7287,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":210,
                  "properties":[
@@ -7348,7 +7491,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":216,
                  "properties":[
@@ -7467,7 +7611,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -7484,8 +7628,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":220,
                  "properties":[
@@ -7502,7 +7645,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -7536,7 +7679,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -7757,7 +7900,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":228,
                  "properties":[
@@ -7825,8 +7969,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":230,
                  "properties":[
@@ -7909,6 +8052,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -7934,6 +8082,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -7967,6 +8120,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -7992,6 +8150,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -8025,6 +8188,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -8050,6 +8218,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -8083,6 +8256,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -8108,6 +8286,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -8144,7 +8327,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -8178,7 +8361,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -8212,7 +8395,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -8246,7 +8429,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -8280,7 +8463,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -8314,7 +8497,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -8348,7 +8531,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -8382,7 +8565,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -8467,8 +8650,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":250,
                  "properties":[
@@ -8536,7 +8718,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":252,
                  "properties":[
@@ -8808,8 +8991,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":260,
                  "properties":[
@@ -8945,7 +9127,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":264,
                  "properties":[
@@ -9064,7 +9247,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -9098,7 +9281,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -9132,7 +9315,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -9149,8 +9332,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":270,
                  "properties":[
@@ -9354,7 +9536,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":276,
                  "properties":[
@@ -9490,8 +9673,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":280,
                  "properties":[
@@ -9502,6 +9684,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -9535,6 +9722,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -9552,180 +9744,6 @@
                 }, 
                 {
                  "id":282,
-                 "properties":[
-                        {
-                         "name":"Bottle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Candle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Key",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Knife",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Mirror",
-                         "type":"bool",
-                         "value":false
-                        }]
-                }, 
-                {
-                 "id":283,
-                 "properties":[
-                        {
-                         "name":"Bottle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Candle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Key",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Knife",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Mirror",
-                         "type":"bool",
-                         "value":false
-                        }]
-                }, 
-                {
-                 "id":284,
-                 "properties":[
-                        {
-                         "name":"Bottle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Candle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Key",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Knife",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Mirror",
-                         "type":"bool",
-                         "value":false
-                        }]
-                }, 
-                {
-                 "id":285,
-                 "properties":[
-                        {
-                         "name":"Bottle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Candle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Key",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Knife",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Mirror",
-                         "type":"bool",
-                         "value":false
-                        }]
-                }, 
-                {
-                 "id":286,
-                 "properties":[
-                        {
-                         "name":"Bottle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Candle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Key",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Knife",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Mirror",
-                         "type":"bool",
-                         "value":false
-                        }]
-                }, 
-                {
-                 "id":287,
-                 "properties":[
-                        {
-                         "name":"Bottle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Candle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Key",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Knife",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Mirror",
-                         "type":"bool",
-                         "value":false
-                        }]
-                }, 
-                {
-                 "id":288,
                  "properties":[
                         {
                          "name":"Bottle",
@@ -9759,7 +9777,143 @@
                         }]
                 }, 
                 {
-                 "id":289,
+                 "id":283,
+                 "properties":[
+                        {
+                         "name":"Bottle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Key",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Knife",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Mirror",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":284,
+                 "properties":[
+                        {
+                         "name":"Bottle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Key",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Knife",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Mirror",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":285,
+                 "properties":[
+                        {
+                         "name":"Bottle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Key",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Knife",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Mirror",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":286,
+                 "properties":[
+                        {
+                         "name":"Bottle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Key",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Knife",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Mirror",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":287,
                  "properties":[
                         {
                          "name":"Bottle",
@@ -9794,6 +9948,74 @@
                 },
             
                 {
+                 "id":288,
+                 "properties":[
+                        {
+                         "name":"Bottle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Key",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Knife",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Mirror",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":289,
+                 "properties":[
+                        {
+                         "name":"Bottle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Key",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Knife",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Mirror",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
                  "id":290,
                  "properties":[
                         {
@@ -9809,7 +10031,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -9843,7 +10065,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -9877,7 +10099,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -9911,7 +10133,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -9945,7 +10167,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -9979,7 +10201,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -10473,8 +10695,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":310,
                  "properties":[
@@ -10542,7 +10763,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":312,
                  "properties":[
@@ -10814,8 +11036,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":320,
                  "properties":[
@@ -10951,7 +11172,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":324,
                  "properties":[
@@ -11102,6 +11324,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -11131,6 +11358,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -11145,8 +11377,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":330,
                  "properties":[
@@ -11157,6 +11388,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -11190,6 +11426,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -11215,6 +11456,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -11248,6 +11494,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -11277,6 +11528,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -11294,137 +11550,6 @@
                 }, 
                 {
                  "id":335,
-                 "properties":[
-                        {
-                         "name":"Bottle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Candle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Key",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Knife",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Mirror",
-                         "type":"bool",
-                         "value":false
-                        }]
-                }, 
-                {
-                 "id":336,
-                 "properties":[
-                        {
-                         "name":"Bottle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Candle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Collides",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Key",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Knife",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Mirror",
-                         "type":"bool",
-                         "value":false
-                        }]
-                }, 
-                {
-                 "id":337,
-                 "properties":[
-                        {
-                         "name":"Bottle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Candle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Collides",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Key",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Knife",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Mirror",
-                         "type":"bool",
-                         "value":false
-                        }]
-                }, 
-                {
-                 "id":338,
-                 "properties":[
-                        {
-                         "name":"Bottle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Candle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Collides",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Key",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Knife",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Mirror",
-                         "type":"bool",
-                         "value":false
-                        }]
-                }, 
-                {
-                 "id":339,
                  "properties":[
                         {
                          "name":"Bottle",
@@ -11459,6 +11584,142 @@
                 },
             
                 {
+                 "id":336,
+                 "properties":[
+                        {
+                         "name":"Bottle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Key",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Knife",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Mirror",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":337,
+                 "properties":[
+                        {
+                         "name":"Bottle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Key",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Knife",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Mirror",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":338,
+                 "properties":[
+                        {
+                         "name":"Bottle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Key",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Knife",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Mirror",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":339,
+                 "properties":[
+                        {
+                         "name":"Bottle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Key",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Knife",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Mirror",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
                  "id":340,
                  "properties":[
                         {
@@ -11474,7 +11735,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -11508,7 +11769,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -11542,7 +11803,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -11576,7 +11837,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -11729,7 +11990,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":348,
                  "properties":[
@@ -11797,8 +12059,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":350,
                  "properties":[
@@ -12063,7 +12324,7 @@
                         {
                          "name":"Knife",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Mirror",
@@ -12097,7 +12358,7 @@
                         {
                          "name":"Knife",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Mirror",
@@ -12479,8 +12740,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":370,
                  "properties":[
@@ -12548,7 +12808,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":372,
                  "properties":[
@@ -12699,6 +12960,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -12724,6 +12990,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -12757,6 +13028,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -12786,6 +13062,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -12800,8 +13081,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":380,
                  "properties":[
@@ -12812,6 +13092,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -12845,6 +13130,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -12874,6 +13164,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -12891,205 +13186,6 @@
                 }, 
                 {
                  "id":383,
-                 "properties":[
-                        {
-                         "name":"Bottle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Candle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Key",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Knife",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Mirror",
-                         "type":"bool",
-                         "value":false
-                        }]
-                }, 
-                {
-                 "id":384,
-                 "properties":[
-                        {
-                         "name":"Bottle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Candle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Collides",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Key",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Knife",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Mirror",
-                         "type":"bool",
-                         "value":false
-                        }]
-                }, 
-                {
-                 "id":385,
-                 "properties":[
-                        {
-                         "name":"Bottle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Candle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Collides",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Key",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Knife",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Mirror",
-                         "type":"bool",
-                         "value":false
-                        }]
-                }, 
-                {
-                 "id":386,
-                 "properties":[
-                        {
-                         "name":"Bottle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Candle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Collides",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Key",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Knife",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Mirror",
-                         "type":"bool",
-                         "value":false
-                        }]
-                }, 
-                {
-                 "id":387,
-                 "properties":[
-                        {
-                         "name":"Bottle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Candle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Collides",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Key",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Knife",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Mirror",
-                         "type":"bool",
-                         "value":false
-                        }]
-                }, 
-                {
-                 "id":388,
-                 "properties":[
-                        {
-                         "name":"Bottle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Candle",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Collides",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Key",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Knife",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"Mirror",
-                         "type":"bool",
-                         "value":false
-                        }]
-                }, 
-                {
-                 "id":389,
                  "properties":[
                         {
                          "name":"Bottle",
@@ -13124,6 +13220,210 @@
                 },
             
                 {
+                 "id":384,
+                 "properties":[
+                        {
+                         "name":"Bottle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Key",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Knife",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Mirror",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":385,
+                 "properties":[
+                        {
+                         "name":"Bottle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Key",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Knife",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Mirror",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":386,
+                 "properties":[
+                        {
+                         "name":"Bottle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Key",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Knife",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Mirror",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":387,
+                 "properties":[
+                        {
+                         "name":"Bottle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Key",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Knife",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Mirror",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":388,
+                 "properties":[
+                        {
+                         "name":"Bottle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Key",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Knife",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Mirror",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":389,
+                 "properties":[
+                        {
+                         "name":"Bottle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"Key",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Knife",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Mirror",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
                  "id":390,
                  "properties":[
                         {
@@ -13139,7 +13439,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -13173,7 +13473,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -13326,7 +13626,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":396,
                  "properties":[
@@ -13462,8 +13763,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":400,
                  "properties":[
@@ -13660,7 +13960,7 @@
                         {
                          "name":"Knife",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Mirror",
@@ -13694,7 +13994,7 @@
                         {
                          "name":"Knife",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Mirror",
@@ -13735,7 +14035,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":408,
                  "properties":[
@@ -13803,8 +14104,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":410,
                  "properties":[
@@ -14296,6 +14596,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -14321,6 +14626,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -14354,6 +14664,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -14379,6 +14694,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -14412,6 +14732,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -14441,6 +14766,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -14455,8 +14785,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":430,
                  "properties":[
@@ -14467,6 +14796,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -14500,6 +14834,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -14514,7 +14853,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":432,
                  "properties":[
@@ -14531,7 +14871,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -14565,7 +14905,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -14599,7 +14939,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -14633,7 +14973,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -14667,7 +15007,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -14701,7 +15041,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -14735,7 +15075,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -14769,7 +15109,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -14786,8 +15126,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":440,
                  "properties":[
@@ -14923,7 +15262,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":444,
                  "properties":[
@@ -15127,8 +15467,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":450,
                  "properties":[
@@ -15257,7 +15596,7 @@
                         {
                          "name":"Knife",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Mirror",
@@ -15291,7 +15630,7 @@
                         {
                          "name":"Knife",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Mirror",
@@ -15332,7 +15671,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":456,
                  "properties":[
@@ -15349,7 +15689,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -15383,7 +15723,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -15417,12 +15757,12 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Knife",
@@ -15451,12 +15791,12 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Knife",
@@ -15468,8 +15808,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":460,
                  "properties":[
@@ -15741,7 +16080,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":468,
                  "properties":[
@@ -15809,8 +16149,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":470,
                  "properties":[
@@ -15893,6 +16232,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -15918,6 +16262,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -15951,6 +16300,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -15976,6 +16330,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -16009,6 +16368,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -16034,6 +16398,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -16067,6 +16436,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -16092,6 +16466,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -16128,7 +16507,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -16162,7 +16541,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -16196,7 +16575,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -16230,7 +16609,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -16264,7 +16643,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -16298,7 +16677,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -16332,7 +16711,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -16366,7 +16745,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -16451,8 +16830,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":490,
                  "properties":[
@@ -16520,7 +16898,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":492,
                  "properties":[
@@ -16792,8 +17171,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":500,
                  "properties":[
@@ -16854,7 +17232,7 @@
                         {
                          "name":"Knife",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Mirror",
@@ -16888,7 +17266,7 @@
                         {
                          "name":"Knife",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Mirror",
@@ -16929,7 +17307,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":504,
                  "properties":[
@@ -16946,7 +17325,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -16980,7 +17359,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -17014,12 +17393,12 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Knife",
@@ -17048,12 +17427,12 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Knife",
@@ -17133,8 +17512,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":510,
                  "properties":[
@@ -17338,7 +17716,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":516,
                  "properties":[
@@ -17474,8 +17853,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":520,
                  "properties":[
@@ -17486,6 +17864,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -17519,6 +17902,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -17544,6 +17932,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -17577,6 +17970,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -17602,6 +18000,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -17635,6 +18038,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -17660,6 +18068,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -17693,6 +18106,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -17707,7 +18125,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":528,
                  "properties":[
@@ -17775,8 +18194,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":530,
                  "properties":[
@@ -17963,7 +18381,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -18457,8 +18875,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":550,
                  "properties":[
@@ -18526,7 +18943,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":552,
                  "properties":[
@@ -18543,7 +18961,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -18577,7 +18995,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -18611,7 +19029,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -18645,7 +19063,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -18798,8 +19216,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":560,
                  "properties":[
@@ -18935,7 +19352,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":564,
                  "properties":[
@@ -19086,6 +19504,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -19115,6 +19538,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -19129,8 +19557,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":570,
                  "properties":[
@@ -19141,6 +19568,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -19174,6 +19606,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -19199,6 +19636,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -19232,6 +19674,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -19257,6 +19704,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -19290,6 +19742,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -19304,7 +19761,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":576,
                  "properties":[
@@ -19440,8 +19898,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":580,
                  "properties":[
@@ -19560,7 +20017,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -19713,7 +20170,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":588,
                  "properties":[
@@ -19781,8 +20239,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":590,
                  "properties":[
@@ -20140,7 +20597,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -20174,7 +20631,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -20208,7 +20665,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -20242,7 +20699,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -20463,8 +20920,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":610,
                  "properties":[
@@ -20532,7 +20988,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":612,
                  "properties":[
@@ -20683,6 +21140,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -20708,6 +21170,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -20741,6 +21208,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -20770,6 +21242,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -20784,8 +21261,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":620,
                  "properties":[
@@ -20796,6 +21272,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -20829,6 +21310,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -20854,6 +21340,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -20887,6 +21378,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -20901,7 +21397,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":624,
                  "properties":[
@@ -21105,8 +21602,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":630,
                  "properties":[
@@ -21157,7 +21653,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -21310,7 +21806,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":636,
                  "properties":[
@@ -21446,8 +21943,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":640,
                  "properties":[
@@ -21719,7 +22215,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":648,
                  "properties":[
@@ -21736,7 +22233,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -21770,7 +22267,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -21787,8 +22284,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":650,
                  "properties":[
@@ -21805,7 +22301,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -21839,7 +22335,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -21873,7 +22369,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -21907,7 +22403,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -21941,7 +22437,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -21975,7 +22471,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -22280,6 +22776,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -22305,6 +22806,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -22338,6 +22844,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -22363,6 +22874,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -22396,6 +22912,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -22425,6 +22946,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -22439,8 +22965,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":670,
                  "properties":[
@@ -22451,6 +22976,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -22484,6 +23014,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -22498,7 +23033,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":672,
                  "properties":[
@@ -22753,7 +23289,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -22770,8 +23306,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":680,
                  "properties":[
@@ -22907,7 +23442,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":684,
                  "properties":[
@@ -23111,8 +23647,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":690,
                  "properties":[
@@ -23316,7 +23851,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":696,
                  "properties":[
@@ -23333,7 +23869,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -23367,7 +23903,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -23401,7 +23937,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -23435,7 +23971,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -23452,8 +23988,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":700,
                  "properties":[
@@ -23470,7 +24005,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -23504,7 +24039,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -23538,7 +24073,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -23572,7 +24107,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -23725,7 +24260,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":708,
                  "properties":[
@@ -23793,8 +24329,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":710,
                  "properties":[
@@ -23877,6 +24412,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -23902,6 +24442,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -23935,6 +24480,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -23960,6 +24510,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -23993,6 +24548,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -24018,6 +24578,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -24051,6 +24616,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -24076,6 +24646,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -24350,7 +24925,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"Key",
@@ -24435,8 +25010,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":730,
                  "properties":[
@@ -24504,7 +25078,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":732,
                  "properties":[
@@ -24776,8 +25351,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":740,
                  "properties":[
@@ -24913,7 +25487,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":744,
                  "properties":[
@@ -24930,7 +25505,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -24964,7 +25539,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -24998,7 +25573,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -25032,7 +25607,7 @@
                         {
                          "name":"Collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"Key",
@@ -25117,8 +25692,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":750,
                  "properties":[
@@ -25322,7 +25896,8 @@
                          "type":"bool",
                          "value":false
                         }]
-                }, 
+                },
+            
                 {
                  "id":756,
                  "properties":[
@@ -25458,8 +26033,7 @@
                          "type":"bool",
                          "value":false
                         }]
-                },
-            
+                }, 
                 {
                  "id":760,
                  "properties":[
@@ -25470,6 +26044,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -25503,6 +26082,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -25528,6 +26112,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -25561,6 +26150,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -25586,6 +26180,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -25619,6 +26218,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -25644,6 +26248,11 @@
                         }, 
                         {
                          "name":"Candle",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"Collides",
                          "type":"bool",
                          "value":false
                         }, 
@@ -25677,6 +26286,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"Collides",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"Key",
                          "type":"bool",
                          "value":false
@@ -25697,5 +26311,5 @@
  "tilewidth":32,
  "type":"map",
  "version":"1.10",
- "width":10
+ "width":12
 }

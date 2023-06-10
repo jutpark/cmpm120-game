@@ -1,6 +1,6 @@
-class Overworld extends Phaser.Scene{
+class Downstairs extends Phaser.Scene{
     constructor(){
-        super('Overworld')
+        super('downstairsScene')
         this.VEL = 100
         //assets temporary from tilemapping
         //need to add sound before turn in
@@ -11,8 +11,7 @@ class Overworld extends Phaser.Scene{
         this.load.path = './assets/'
         this.load.spritesheet('slime', 'slime.png', { frameWidth: 16,    frameHeight: 16 })
         this.load.image('tilesetImage', 'atlas_32x.png')
-        this.load.tilemapTiledJSON('tilemapJSON', 'Inside.json')
-        this.load.audio('beep', 'beep.wav')
+        this.load.tilemapTiledJSON('tilemapJSON', 'Kitchen.json')
 
 }
 
@@ -28,10 +27,7 @@ class Overworld extends Phaser.Scene{
         
         
         
-        this.music=this.sound.add('beep',{
-            volume:0.2,
-            loop:false
-          })
+        
         this.x=0
         this.y=0
 
@@ -74,20 +70,12 @@ for(this.i=0;this.i<100000;this.i++){
         this.q.setVelocity(0,0)
         this.slime.x=Phaser.Math.Between(40, 280)
         this.slime.y=Phaser.Math.Between(168, 239)
-        this.sound.once(Phaser.Sound.Events.UNLOCKED, () => {
-			this.music.play()
-		})
       }, null, this);
       this.x+=3000
 }
 
 }
-init(data)
-{
-    console.log('init', data);
-    this.key = data.key;
-    this.mug=data.mug;
-}
+
 update(){
 
 
@@ -131,25 +119,22 @@ if((this.slime.x>=265&&this.slime.x<=280)&&(this.slime.y==184)){
         this.key=1
     }
     
-}else if((this.slime.x>=198&&this.slime.x<=211)&&(this.slime.y<=118&&this.slime.y>=104)){
-    console.log("in range")
-    if(this.key==1){
-        //, { inventory: this.inventory, mug: this.mug, key: this.key}
-        console.log("Go downstairs")
-        this.scene.start('downstairsScene')
-    }
-    
+}
 }
 
-}
 //
 
-if(this.key==1&&this.mug==1){
+if(this.fire==1&&this.knife==1){
     this.scene.start("menuScene");
 }
 this.direction.normalize()
 this.slime.setVelocity(this.VEL*this.direction.x,this.VEL*this.direction.y)
+
 }
+
+
+
+
 
 
 }
