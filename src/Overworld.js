@@ -9,14 +9,16 @@ class Overworld extends Phaser.Scene{
     }
     preload(){
         this.load.path = './assets/'
+        this.load.image('star', 'star3.png')
         this.load.spritesheet('slime', 'slime.png', { frameWidth: 16,    frameHeight: 16 })
+        this.load.spritesheet('char', 'free_character_1-3.png', { frameWidth: 16,    frameHeight: 20 })
         this.load.image('tilesetImage', 'atlas_32x.png')
         this.load.tilemapTiledJSON('tilemapJSON', 'Inside.json')
         this.load.audio('beep', 'beep.wav')
 
 }
 
-    create(){
+    create(data){
         console.log("Owo")
         const map = this.make.tilemap({key:'tilemapJSON'})
         const tileset = map.addTilesetImage('atlas_32x', 'tilesetImage')
@@ -26,7 +28,15 @@ class Overworld extends Phaser.Scene{
         const SofaLayer = map.createLayer('Sofa', tileset)
         const MugLayer = map.createLayer('Mug', tileset)
         
-        
+        this.add.particles(205, 60, 'star', {
+            speed: 100,
+            lifespan: 100,
+            gravityY: 1000,
+            scaleX: 0.3,
+            scaleY: 0.3
+        });
+
+    
         
         this.music=this.sound.add('beep',{
             volume:0.2,
@@ -36,7 +46,8 @@ class Overworld extends Phaser.Scene{
         this.y=0
 
         const slimeSpawn = map.findObject('Spawns', obj => obj.name === 'PlayerSpawn')
-        this.slime = this.physics.add.sprite(slimeSpawn.x, slimeSpawn.y,'slime', 0)
+        this.slime = this.physics.add.sprite(slimeSpawn.x, slimeSpawn.y,'char', 0)
+        /*
 this.anims.create({
     key: 'jiggle',
     frameRate: 8,
@@ -44,11 +55,25 @@ this.anims.create({
     frames: this.anims.generateFrameNumbers('slime',{start: 0,end: 1})
 })
 this.slime.play('jiggle')
+*/
 this.slime.body.setCollideWorldBounds(true)
-this.key=false;
-this.mug=false;
+console.log(data)
+
+    this.knife=data.knife;
+    this.key=data.key;
+    this.mug=data.mug;
+    this.inventory=data.inventory;
+if(this.knife==true){
+    this.add.particles(180, 60, 'star', {
+        speed: 100,
+        lifespan: 100,
+        gravityY: 1000,
+        scaleX: 0.3,
+        scaleY: 0.3
+    });
+}
 this.cursors = this.input.keyboard.createCursorKeys()
-this.inventory="Inventory:"
+
 this.cameras.main.setBounds(0, 0, map.widthInPixels,map.heightInPixels)
 this.cameras.main.startFollow(this.slime, true, 0.25, 0.25)
 this.physics.world.bounds.setTo(0, 0, map.widthInPixels, map.heightInPixels)
@@ -70,7 +95,7 @@ this.inventoryText = this.add.text(30, 30, this.inventory, {
 this.x=3000
 for(this.i=0;this.i<100000;this.i++){
     this.clock = this.time.delayedCall(this.x, () => {
-        this.q = this.physics.add.sprite(this.slime.x, this.slime.y, 'slime', 0)
+        this.q = this.physics.add.sprite(this.slime.x, this.slime.y, 'char', 0)
         this.q.setVelocity(0,0)
         this.slime.x=Phaser.Math.Between(40, 280)
         this.slime.y=Phaser.Math.Between(168, 239)
@@ -134,12 +159,32 @@ if((this.slime.x>=265&&this.slime.x<=280)&&(this.slime.y==184)){
 }else if((this.slime.x>=198&&this.slime.x<=211)&&(this.slime.y<=118&&this.slime.y>=104)){
     console.log("in range")
     if(this.key==1){
-        //, { inventory: this.inventory, mug: this.mug, key: this.key}
+        //
         console.log("Go downstairs")
         this.scene.stop('overworld')
-        this.scene.start('downstairsScene')
+        this.scene.start('downstairsScene', { inventory: this.inventory, mug: this.mug, key: this.key, knife: this.knife})
+    }else{
+        this.add.text(160,300, 'Find the key!',  {
+            fontFamily: 'Courier',
+            fontSize: '14px',
+            backgroundColor: '#F3B141',
+            color: '#843605',
+            align: 'right',
+            padding: {
+                top: 5,
+                bottom: 5,
+            },
+            fixedWidth: 0
+        }).setOrigin(0.5);
     }
     
+}else if((this.slime.x>=168&&this.slime.x<=200)&&(this.slime.y<=138&&this.slime.y>=106)){
+    if(this.knife==1){
+        //
+        
+        this.scene.stop('overworld')
+        this.scene.start('Menu')
+    }
 }
 
 }

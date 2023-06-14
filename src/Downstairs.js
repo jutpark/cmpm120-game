@@ -9,13 +9,16 @@ class Downstairs extends Phaser.Scene{
     }
     preload(){
         this.load.path = './assets/'
+        this.load.image('star', 'star3.png')
         this.load.spritesheet('slime', 'slime.png', { frameWidth: 16,    frameHeight: 16 })
+        this.load.spritesheet('char', 'free_character_1-3.png', { frameWidth: 16,    frameHeight: 20 })
         this.load.image('tilesetImage', 'atlas_32x.png')
         this.load.tilemapTiledJSON('tilemapJSON2', 'kitchen.json')
+        this.load.image('star', 'assets/demoscene/star3.png');
 
 }
 
-    create(){
+    create(data){
         console.log("Owo")
         const map = this.make.tilemap({key:'tilemapJSON2'})
         const tileset = map.addTilesetImage('atlas_32x', 'tilesetImage')
@@ -26,25 +29,26 @@ class Downstairs extends Phaser.Scene{
         const MugLayer = map.createLayer('Mug', tileset)
         
         
-        
-        
         this.x=0
         this.y=0
 
         const slimeSpawn = map.findObject('Spawns', obj => obj.name === 'PlayerSpawn')
-        this.slime = this.physics.add.sprite(slimeSpawn.x, slimeSpawn.y,'slime', 0)
-this.anims.create({
+        this.slime = this.physics.add.sprite(slimeSpawn.x, slimeSpawn.y,'char', 0)
+/*this.anims.create({
     key: 'jiggle',
     frameRate: 8,
     repeat: -1,
     frames: this.anims.generateFrameNumbers('slime',{start: 0,end: 1})
 })
-this.slime.play('jiggle')
+this.slime.play('jiggle')*/
 this.slime.body.setCollideWorldBounds(true)
-this.key=false;
-this.mug=false;
+    this.knife=data.knife;
+    this.key=data.key;
+    this.mug=data.mug;
+    this.inventory=data.inventory;
+
 this.cursors = this.input.keyboard.createCursorKeys()
-this.inventory="Inventory:"
+//this.inventory="Inventory:"
 this.cameras.main.setBounds(0, 0, map.widthInPixels,map.heightInPixels)
 this.cameras.main.startFollow(this.slime, true, 0.25, 0.25)
 this.physics.world.bounds.setTo(0, 0, map.widthInPixels, map.heightInPixels)
@@ -66,15 +70,17 @@ this.inventoryText = this.add.text(30, 30, this.inventory, {
 this.x=3000
 for(this.i=0;this.i<100000;this.i++){
     this.clock = this.time.delayedCall(this.x, () => {
-        this.q = this.physics.add.sprite(this.slime.x, this.slime.y, 'slime', 0)
+        this.q = this.physics.add.sprite(this.slime.x, this.slime.y, 'char', 0)
         this.q.setVelocity(0,0)
-        this.slime.x=Phaser.Math.Between(40, 280)
-        this.slime.y=Phaser.Math.Between(168, 239)
+        this.slime.x=Phaser.Math.Between(72, 280)
+        this.slime.y=Phaser.Math.Between(120, 300)
       }, null, this);
       this.x+=3000
 }
 
 }
+
+
 
 update(){
 
@@ -103,20 +109,21 @@ if(this.cursors.space.isDown){
 console.log(this.slime.x)
 console.log("y")
 console.log(this.slime.y)
-if((this.slime.x>=265&&this.slime.x<=280)&&(this.slime.y==184)){
+if((this.slime.x>=72&&this.slime.x<=112)&&(this.slime.y<=150&&this.slime.y>=120)){
     console.log("in range")
-    if(this.mug!=1){
-        this.inventory+='\nMug'
+    if(this.knife==false){
+        this.inventory+='\nKnife'
         this.inventoryText.setText(this.inventory)
-        this.mug=1
+        this.knife=true
     }
     
-}else if((this.slime.x>=40&&this.slime.x<=72)&&(this.slime.y<=248&&this.slime.y>=216)){
+}else if((this.slime.x>=230&&this.slime.x<=250)&&(this.slime.y<=120&&this.slime.y>=106)){
     console.log("in range")
-    if(this.key!=1){
-        this.inventory+='\nHidden Key'
-        this.inventoryText.setText(this.inventory)
-        this.key=1
+    if(this.key==1){
+        //
+        console.log("Go upstairs")
+        this.scene.stop('downstairsScene')
+        this.scene.start('Overworld', { inventory: this.inventory, mug: this.mug, key: this.key, knife: this.knife})
     }
     
 }

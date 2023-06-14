@@ -36,7 +36,7 @@ class Menu extends Phaser.Scene {
     update() {
         if (Phaser.Input.Keyboard.JustDown(keyRIGHT)) {
           // hard mode
-          this.scene.start('Overworld');    
+          this.scene.start('Overworld',{ inventory: "Inventory", mug: false, key: false, knife: false});    
         }
         //if (this.gameOver && Phaser.Input.Keyboard.JustDown(keyLEFT)) {
    //         this.scene.start("menuScene");

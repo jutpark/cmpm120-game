@@ -8,6 +8,9 @@
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
+        "": {
+            "scaleInEditor": 1
+        },
         "#atlas_32x": {
             "scaleInDock": 1
         },
@@ -44,6 +47,17 @@
         "area01.json#tileset": {
             "scaleInDock": 1
         },
+        "kitchen.json": {
+            "scale": 2.4289772727272725,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 191.4385964912281,
+                "y": 175.38245614035085
+            }
+        },
+        "kitchen.json#atlas_32x": {
+            "scaleInDock": 1
+        },
         "kitchen.tmx": {
             "scale": 1.5,
             "selectedLayer": 3,
@@ -67,6 +81,7 @@
     "project": "untitled.tiled-project",
     "property.type": "bool",
     "recentFiles": [
+        "kitchen.json",
         "Inside.json"
     ],
     "tileset.embedInMap": true
