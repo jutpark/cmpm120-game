@@ -19,7 +19,7 @@ class Overworld extends Phaser.Scene{
 }
 
     create(data){
-        console.log("Owo")
+        //console.log("Owo")
         const map = this.make.tilemap({key:'tilemapJSON'})
         const tileset = map.addTilesetImage('atlas_32x', 'tilesetImage')
         const FloorLayer = map.createLayer('Floor', tileset)
@@ -27,7 +27,7 @@ class Overworld extends Phaser.Scene{
         const WindowLayer = map.createLayer('Window', tileset)
         const SofaLayer = map.createLayer('Sofa', tileset)
         const MugLayer = map.createLayer('Mug', tileset)
-        
+        this.z=0
         this.add.particles(205, 60, 'star', {
             speed: 100,
             lifespan: 100,
@@ -57,7 +57,7 @@ this.anims.create({
 this.slime.play('jiggle')
 */
 this.slime.body.setCollideWorldBounds(true)
-console.log(data)
+//console.log(data)
 
     this.knife=data.knife;
     this.key=data.key;
@@ -109,12 +109,23 @@ for(this.i=0;this.i<100000;this.i++){
 }
 init(data)
 {
-    console.log('init', data);
+    //console.log('init', data);
     this.key = data.key;
     this.mug=data.mug;
 }
 update(){
+this.z+=1
 
+    if(this.z==30000){
+        this.add.particles(50, 224, 'star', {
+            speed: 100,
+            lifespan: 100,
+            gravityY: 1000,
+            scaleX: 0.3,
+            scaleY: 0.3
+        });
+        
+    }
 
 this.direction=new Phaser.Math.Vector2(0)
 
@@ -136,12 +147,12 @@ if(this.cursors.up.isDown){
 
 
 if(this.cursors.space.isDown){
-    console.log("x")
-console.log(this.slime.x)
-console.log("y")
-console.log(this.slime.y)
+    //console.log("x")
+//console.log(this.slime.x)
+//console.log("y")
+//console.log(this.slime.y)
 if((this.slime.x>=265&&this.slime.x<=280)&&(this.slime.y==184)){
-    console.log("in range")
+    //console.log("in range")
     if(this.mug!=1){
         this.inventory+='\nMug'
         this.inventoryText.setText(this.inventory)
@@ -149,7 +160,7 @@ if((this.slime.x>=265&&this.slime.x<=280)&&(this.slime.y==184)){
     }
     
 }else if((this.slime.x>=40&&this.slime.x<=72)&&(this.slime.y<=248&&this.slime.y>=216)){
-    console.log("in range")
+    //console.log("in range")
     if(this.key!=1){
         this.inventory+='\nHidden Key'
         this.inventoryText.setText(this.inventory)
@@ -157,10 +168,10 @@ if((this.slime.x>=265&&this.slime.x<=280)&&(this.slime.y==184)){
     }
     
 }else if((this.slime.x>=198&&this.slime.x<=211)&&(this.slime.y<=118&&this.slime.y>=104)){
-    console.log("in range")
+    //console.log("in range")
     if(this.key==1){
         //
-        console.log("Go downstairs")
+        //console.log("Go downstairs")
         this.scene.stop('overworld')
         this.scene.start('downstairsScene', { inventory: this.inventory, mug: this.mug, key: this.key, knife: this.knife})
     }else{

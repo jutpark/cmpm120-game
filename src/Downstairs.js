@@ -15,11 +15,12 @@ class Downstairs extends Phaser.Scene{
         this.load.image('tilesetImage', 'atlas_32x.png')
         this.load.tilemapTiledJSON('tilemapJSON2', 'kitchen.json')
         this.load.image('star', 'assets/demoscene/star3.png');
+        this.load.audio('beep', 'beep.wav')
 
 }
 
     create(data){
-        console.log("Owo")
+        //console.log("Owo")
         const map = this.make.tilemap({key:'tilemapJSON2'})
         const tileset = map.addTilesetImage('atlas_32x', 'tilesetImage')
         const FloorLayer = map.createLayer('Floor', tileset)
@@ -27,8 +28,11 @@ class Downstairs extends Phaser.Scene{
         const WindowLayer = map.createLayer('Window', tileset)
         const SofaLayer = map.createLayer('Sofa', tileset)
         const MugLayer = map.createLayer('Mug', tileset)
-        
-        
+        this.z=0
+        this.music=this.sound.add('beep',{
+            volume:0.2,
+            loop:false
+          })
         this.x=0
         this.y=0
 
@@ -72,8 +76,12 @@ for(this.i=0;this.i<100000;this.i++){
     this.clock = this.time.delayedCall(this.x, () => {
         this.q = this.physics.add.sprite(this.slime.x, this.slime.y, 'char', 0)
         this.q.setVelocity(0,0)
-        this.slime.x=Phaser.Math.Between(72, 280)
-        this.slime.y=Phaser.Math.Between(120, 300)
+        this.slime.x=Phaser.Math.Between(40, 280)
+        this.slime.y=Phaser.Math.Between(168, 239)
+        this.sound.once(Phaser.Sound.Events.UNLOCKED, () => {
+			this.music.play()
+		})
+        
       }, null, this);
       this.x+=3000
 }
@@ -84,6 +92,18 @@ for(this.i=0;this.i<100000;this.i++){
 
 update(){
 
+    this.z+=1
+    //console.log(this.z)
+    if(this.z==30000){
+        this.add.particles(90, 120, 'star', {
+            speed: 100,
+            lifespan: 100,
+            gravityY: 1000,
+            scaleX: 0.3,
+            scaleY: 0.3
+        });
+        
+    }
 
 this.direction=new Phaser.Math.Vector2(0)
 
@@ -105,12 +125,12 @@ if(this.cursors.up.isDown){
 
 
 if(this.cursors.space.isDown){
-    console.log("x")
-console.log(this.slime.x)
-console.log("y")
-console.log(this.slime.y)
+    //console.log("x")
+//console.log(this.slime.x)
+//console.log("y")
+//console.log(this.slime.y)
 if((this.slime.x>=72&&this.slime.x<=112)&&(this.slime.y<=150&&this.slime.y>=120)){
-    console.log("in range")
+    //console.log("in range")
     if(this.knife==false){
         this.inventory+='\nKnife'
         this.inventoryText.setText(this.inventory)
@@ -118,10 +138,10 @@ if((this.slime.x>=72&&this.slime.x<=112)&&(this.slime.y<=150&&this.slime.y>=120)
     }
     
 }else if((this.slime.x>=230&&this.slime.x<=250)&&(this.slime.y<=120&&this.slime.y>=106)){
-    console.log("in range")
+    //console.log("in range")
     if(this.key==1){
         //
-        console.log("Go upstairs")
+        //console.log("Go upstairs")
         this.scene.stop('downstairsScene')
         this.scene.start('Overworld', { inventory: this.inventory, mug: this.mug, key: this.key, knife: this.knife})
     }
@@ -134,7 +154,7 @@ if((this.slime.x>=72&&this.slime.x<=112)&&(this.slime.y<=150&&this.slime.y>=120)
 if(this.fire==1&&this.knife==1){
     this.scene.start("menuScene");
 }
-console.log("DOWNSTAIRS")
+//console.log("DOWNSTAIRS")
 this.direction.normalize()
 this.slime.setVelocity(this.VEL*this.direction.x,this.VEL*this.direction.y)
 

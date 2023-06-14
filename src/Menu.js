@@ -27,7 +27,7 @@ class Menu extends Phaser.Scene {
         menuConfig.backgroundColor = '#00FF00';
         menuConfig.color = '#000';
         this.add.text(game.config.width/2, game.config.height/2 + borderUISize + 2*borderPadding, 'Press → to continue', menuConfig).setOrigin(0.5);
-        this.add.text(game.config.width/2, game.config.height/2 + 3*borderUISize + borderPadding, 'Credit to Twitter @gif_not_jif\nfor the tilemap assets', menuConfig).setOrigin(0.5);
+        this.add.text(game.config.width/2, game.config.height/2 + 3*borderUISize + borderPadding, 'Credit to Twitter @gif_not_jif\nfor the character/tilemap assets', menuConfig).setOrigin(0.5);
 
         // define keys
         keyLEFT = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.LEFT);
